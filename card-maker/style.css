@@ -1,0 +1,32 @@
+
+
+#card,
+#sidePanel {
+  /* puts the card and side panel side by side */
+  display: inline-block;
+
+  /* makes the card and side panel aligned at the top */
+  vertical-align: top;
+}
+
+#card {
+  /* gives dimensions and a border to the card */
+  width: 300px;
+  height: 320px;
+  border: 3px solid black;
+
+  /* centers text within the card */
+  text-align: center;
+
+  /* puts empty space inside the card so that text does not touch the edges */
+  padding: 30px;
+
+  /* puts empty space to the right of the card to separate it from the side panel */
+  margin-right: 30px;
+
+  /* forces text to wrap to a new line if a word is too long */
+  word-wrap: break-word;
+
+  /* hides text that flows out of the card */
+  overflow: hidden;
+}
